@@ -20,10 +20,6 @@ export class MyElement2 extends LitElement {
         this.arr = [];
     }
 
-    connectedCallback(){
-        console.log();
-    }
-
     render(){
         console.log(this.name);
         return html `
